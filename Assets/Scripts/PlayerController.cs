@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
         CheckInBounds(-1);
 
         // Character Actions
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             // If we enter here, a projectile should be shoot.
             Instantiate(projectilePrefab, transform.position, transform.rotation);
