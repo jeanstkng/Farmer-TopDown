@@ -17,7 +17,7 @@ public class SpawnManager : MonoBehaviour
 
     private void Start() {
         spawnPositionZ = this.transform.position.z;
-        enemiesLen = enemies.Length;
+        enemiesLen = enemies.Length - 1;
         InvokeRepeating("SpawnRandomEnemy", startDelay, spawnInterval);
     }
 

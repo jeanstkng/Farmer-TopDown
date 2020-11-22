@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Projectile
+  - Dog
+  - Ball
   layers:
   - Default
   - TransparentFX
